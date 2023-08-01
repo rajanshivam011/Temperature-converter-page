@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature converter</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="first">
+        <h1> Temperature conversion </h1>
+        <p>This is web page to convert <b>Celsius into Fahrenheit and <br> Fahrenheit into Celsius</p>
+    </div>
+    <!-- <label for="unit">Convert into:</label>
+        <select name="celsius" id="cll">
+        <optgroup label="temperature ">
+         <option value="celsius">celsius</option>
+        <option value="fahrenheit">fahrenheit</option>
+    </optgroup> -->
+    <div class="middle">
+
+        <div id="celsius">
+            <h2 class="cel"> Celsius into Fahrenheit</h2>
+            <input type="text" id="show" onfocus="this.value=''" value="°C">
+            <button onclick="" id="convert">Convert</button>
+        </div>
+        <div id="ftemp">
+            <h2 class="cel"> Fahrenheit into celsius</h2>
+            <input type="text" id="showc" onfocus="this.value=''" value="°F">
+
+            <button onclick="" id="convertc">Convert</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
